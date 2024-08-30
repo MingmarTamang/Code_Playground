@@ -1,0 +1,148 @@
+* {
+	margin: 0;
+	padding: 0;
+	color: white;
+}
+
+body {
+	background-color: rgb(0, 0, 33);
+	font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+	color: white;
+}
+
+nav {
+	display: flex;
+	justify-content: space-around;
+	align-items: center;
+	height: 80px;
+	background-color: rgb(18, 18, 62);
+	/* color: white; */
+}
+
+nav ul {
+	display: flex;
+	justify-content: center;
+
+}
+
+nav ul li {
+	list-style: none;
+	margin: 0 23px;
+}
+
+nav ul li a {
+	text-decoration: none;
+	/* color: white; */
+}
+
+nav ul li a:hover {
+	text-decoration: none;
+	color: rgb(130, 130, 206);
+	font-size: 1.05rem;
+}
+
+main hr {
+	border: 0;
+	background: #9c98f1;
+	height: 1.2px;
+	margin: 40px 80px;
+
+}
+
+.left {
+	font-size: 1.5rem;
+}
+
+.firstsection {
+	display: flex;
+	justify-content: space-around;
+	align-items: center;
+	/* margin: auto; */
+	margin: 100px 0;
+}
+
+.firstsection>div {
+	width: 40%;
+	/* color: white; */
+	/* background-color: red; */
+}
+
+.leftsection {
+	font-size: 3rem;
+	/* margin: 70px 0; */
+	/* background-color: green; */
+}
+
+.rightsection {
+	width: 40%;
+	margin: 30px 0;
+	/* background-color: green; */
+}
+
+img {
+	width: 80%;
+	/* background-color: red; */
+	margin-left: 70px;
+}
+
+.purple {
+	color: rgb(161, 89, 228)
+}
+
+.text-gray {
+	color: gray;
+}
+
+#element {
+	color: rgb(161, 89, 228)
+}
+
+.secondSection {
+	max-width: 80vw;
+	margin: auto;
+	height: 80vh;
+	/* margin: 80px 0; */
+
+
+
+}
+
+.secondSection .box {
+	background: white;
+	width: 80vw;
+	height: 2px;
+	margin: 100px 0;
+	display: flex;
+}
+
+.secondSection h1 {
+	font-size: 1.9rem;
+}
+
+.secondSection .vertical {
+	height: 50px;
+	width: 2px;
+	background-color: white;
+	margin: 0 150px;
+}
+
+.image-top {
+	width: 90px;
+	position: relative;
+	top: -80px;
+	left: -110px;
+}
+
+
+.vertical-title {
+	position: relative;
+	top: -30px;
+	width: 180px;
+}
+
+.vertical-desc {
+	position: relative;
+	top: -20px;
+	width: 180px;
+	color: gray;
+}
